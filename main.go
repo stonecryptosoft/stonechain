@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/stonecryptosoft/stonechain/tree/learning/blockchain/block"
+	"github.com/stonecryptosoft/stonechain/blockchain/block"
 )
 
 func main() {
