@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+option go_package = "./proto";
+
+package proto;
+
+message Request{
+    string msg = 1;
+    string ip = 2;
+}
+
+message Response{
+    string msg_res = 1;
+}
+
+service AddService{
+    rpc Hello(Request) returns (Response);
+}
