@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"net"
 
-	"github.com/stonecryptosoft/stonechain/proto"
+	"github.com/stonecryptosoft/stonechain/tree/learningJose/proto"
 
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
